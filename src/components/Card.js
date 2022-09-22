@@ -7,9 +7,9 @@ export default function Card() {
 
         <section>
             <div className="card">
-                <img src={Katie} className="card--photo"/>
+                <img src={Katie} alt="katie zaferes" className="card--photo"/>
                     <div className="review">
-                        <img src={Star} className="card--star"/>
+                        <img src={Star} alt="star" className="card--star"/>
                         <p>5.0 USA</p>
                     </div>
                 <p>Life lessons with Katie Zaferes</p>
