@@ -1,13 +1,15 @@
 import React from "react"
+import Katie from '../images/katie-zaferes.png'
+import Star from '../images/star.png'
 
 export default function Card() {
     return (
 
         <section>
             <div className="card">
-                <img src="../images/katie-zaferes.png" className="card--photo"/>
+                <img src={Katie} className="card--photo"/>
                     <div className="review">
-                        <img src="../images/star.png" className="card--star"/>
+                        <img src={Star} className="card--star"/>
                         <p>5.0 USA</p>
                     </div>
                 <p>Life lessons with Katie Zaferes</p>
