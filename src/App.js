@@ -1,4 +1,5 @@
 import './App.css';
+import image from './images/katie-zaferes.png'
 
 import React from "react"
 import Navbar from "./components/Navbar"
@@ -11,7 +12,14 @@ function App() {
               <div>
             <Navbar />
             <Hero />
-            <Card />
+            <Card
+              img={image}
+              rating="5.0"
+              reviewCount={6}
+              country="USA"
+              title="Life Lessons with Katie Zaferes"
+              price={136}
+            />
         </div>
     </div>
   );
