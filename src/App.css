@@ -94,6 +94,9 @@ section {
   max-width: 180px;
   position: relative;
   font-size: 12px;
+  flex: 0 0 auto;         /* ADD */
+  display: flex;          /* ADD */
+  flex-direction: column;
 }
 
 .card > p {
@@ -120,4 +123,11 @@ section {
   left: 5px;
   border-radius: 4px;
   font-weight: bold;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
 }
